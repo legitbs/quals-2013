@@ -1,0 +1,18 @@
+!!! 5
+%html
+  %head
+    %title babysfirst
+  %body
+    %h1 babysfirst
+    %form{method: 'post', action: '/login'}
+      %h2 login
+      %p#username
+        %label
+          Username:
+          %input{type: 'text', name: 'username'}
+      %p#password
+        %label
+          Password:
+          %input{type: 'password', name: 'password'}
+      %p#submit
+        %button{type: 'submit'} Log In

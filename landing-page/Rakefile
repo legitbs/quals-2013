@@ -1,0 +1,7 @@
+require 'fileutils'
+
+task default: ['index.html']
+
+file 'index.html' => 'index.html.haml' do |t|
+	sh "haml #{t.prerequisites.join} #{t.name}"
+end

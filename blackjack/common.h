@@ -1,0 +1,1 @@
+#define MAX_WINNINGS 2048

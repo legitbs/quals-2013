@@ -1,0 +1,31 @@
+!!! 5
+%html
+  %head
+    %title secrets | hypeman
+  %body
+    %h1 Secrets
+    %table
+      %thead
+        %th name
+        %th owner
+        %th actions
+      %tbody
+        - SECRETS.each_with_index do |s, i|
+          %tr
+            %td&= s.name
+            %td&= s.username
+            %td
+              %a{href: "/secrets/#{i}"} show
+    %form{method: 'post'}
+      %h2 new secret
+      %p
+        %label
+          name
+          %input{name: 'name'}
+      %p
+        %label
+          body
+          %br
+          %textarea{name: 'body'}
+      %p
+        %input{type: 'submit', name: 'new secret'}

@@ -1,0 +1,20 @@
+!!! 5
+%html
+  %head
+    %title worsemedicine
+  %body
+    %form{method: 'post'}
+      %div(style="margin:0;padding:0;display:inline")
+        %input(name="_utf8" type="hidden" value="&#x2713;")
+        %input( name="verification" type="hidden" value=authenticity_token)
+
+      %p
+        %label
+          username
+          %input{name: 'username'}
+      %p
+        %label
+          password
+          %input{name: 'password', type: 'password'}
+      %p
+        %input{type: 'submit', value: 'log in'}

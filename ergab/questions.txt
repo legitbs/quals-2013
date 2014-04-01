@@ -1,0 +1,15 @@
+14
+What was the monster in the episode 'Blink'?;Daleks;Ood;Cybermen;Weeping Angels;
+What is the actual name of River Song?;Amelia Pond;Rory Williams;Rose Tyler;Melody Pond;
+How many Doctors have there been?;9;10;12;11;
+What does TARDIS stand for?;Time And Relative Direction In Space;Travel And Relative Direction In Space; Travel And Relative Dimension In Space; Time And Relative Dimension In Space;
+How did the Doctor get the TARDIS?;He built it.;He found it.;It was a gift.;He stole it.;
+What company were the Cybermen made by?;Cytex Industries;Cyden Industries;Cylox Industries;Cybus Industries;
+Which planet are the Slitheen from?;Rexacoricofallapatorius;Roxacoricofallapatorius;Rixacoricofallapatorius;Raxacoricofallapatorius;
+What do the Daleks call the Doctor on their home planet?;The Human Parasite;The Deadly Traveller;The Time Lord;The Oncoming Storm;
+What is the name of the Doctor's robotic dog?;K-3;K-Y;K-8;K-9;
+When the Doctor first meets Oswin what has she become?;A Cyberman;A Slitheen;An Ood;A Dalek;
+What is the name of the town being guarded by the Gunslinger?;Hope;Silo;London;Mercy;
+Who is the astronaut who kills the Doctor?;Jack Harkness;Rose Tyler;Amelia Pond;River Song;
+What is the name of the last human in "The End of the World"?;Gabriel;Eve;Jackie;Cassandra;
+Who founded Torchwood?;The Doctor;Sara Jane Smith;Toby Zed;Queen Victoria;

@@ -1,0 +1,19 @@
+!!! 5
+%html
+  %head
+    %title hypeman
+  %body
+    %p
+      %a{href: '/secrets'} secrets
+    
+    %form{method: 'post'}
+      %p
+        %label
+          username
+          %input{name: 'username'}
+      %p
+        %label
+          password
+          %input{name: 'password', type: 'password'}
+      %p
+        %input{type: 'submit', value: 'log in or create user'}

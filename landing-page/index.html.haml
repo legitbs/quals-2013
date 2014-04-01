@@ -1,0 +1,264 @@
+!!! 5
+%html
+  %head
+    %title Legitimate Business Syndicate
+    %link{:href => "https://fonts.googleapis.com/css?family=Ubuntu:400,700|Architects+Daughter", :rel => "stylesheet", :type => "text/css"}
+    %meta{:name => "google", :value => "notranslate"}
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+    :sass
+      $pinku: #ff0080
+      $blue: hsl(200, 100%, 50%)
+      $parchment: #ffe
+      $postit: #ffa
+      @mixin rotate($angle)
+        -webkit-transform: rotate3d(0, 0, 1, $angle)
+        -moz-transform: rotate3d(0, 0, 1, $angle)
+        -o-transform: rotate3d(0, 0, 1, $angle)
+        transform: rotate3d(0, 0, 1, $angle)
+      a
+        &:link, &:visited
+          color: $pinku
+        &:hover
+          color: $blue
+      body
+        background-color: $pinku
+        background-image: url("strawberry-linen.jpg")
+        font-family: Ubuntu, "Droid Sans Japanese", "Arial Unicode MS"
+        margin-bottom: 24px
+        .container 
+          width: 960px
+          margin-left: auto
+          margin-right: auto
+        .logo-partial
+          text-align: center
+          margin-bottom: 20px
+          h1 
+            font-weight: bold
+            font-size: 160px
+            color: yellow
+            margin-top: 0px
+            margin-left: auto
+            margin-right: auto
+            margin-bottom: 20px
+            z-index: 20
+            position: relative
+            width: 676px
+            height: 260px
+            background: url("true-company.png") no-repeat top center
+            span
+              display: none
+          h2.overlay
+            font-family: Ubuntu
+            color: yellow
+            background-color: black
+            margin: -80px auto 0px auto
+            width: 500px
+            z-index: 20
+            position: relative
+        #tldr
+          @include rotate(1.5deg)
+          background-color: $postit
+          color: black
+          font-family: "Architects Daughter"m "Marker Felt", "Comic Sans MS", script
+          width: 360px
+          padding: 4px 12px 12px
+          margin: -8px auto 16px
+          font-size: 1.2em
+          box-shadow: 0 10px 10px 0px black
+          z-index: 10
+          h1, p
+            margin: 0
+        #invitation
+          @include rotate(0deg)
+          background-color: $parchment
+          padding: 12px 12px 4px
+          width: 640px
+          box-shadow: 0 5px 5px 0px black
+          margin: 4px auto
+          z-index: -5
+        #schedule
+          @include rotate(-1.0deg)
+          background-color: white
+          background: url("grid.png")
+          padding: 0 0 12px 0
+          width: 480px
+          box-shadow: 0 5px 5px 0px black
+          margin: 8px auto
+          z-index: -10
+          h1
+            text-align: center
+            background-color: $blue
+            color: white
+            margin: 0
+            padding: 4px
+          h2
+            text-align: center
+          dl
+            dt
+              font-weight: bold
+              text-align: center
+              margin: 4px auto 2px
+            dd
+              text-align: center
+              margin: 2px auto 4px
+          table
+            margin: 4px auto
+            text-align: left
+            tr#utc, tr#our_game
+              background-color: $blue
+              color: white
+            td
+              padding: 4px
+          p
+            text-align: center
+  %body
+    .container
+      .logo-partial
+        %h1
+          %span 真の会社
+        .clear
+        %h2.overlay
+          Legitimate Business Syndicate
+      #tldr
+        %h1 tl;dr
+        %p 
+          %a{href: "https://2013.legitbs.net/"} quals registration now!!!
+        %p quals weekend of june 15
+        %p detailed schedule below!
+      #invitation
+        :markdown
+          Good afternoon.
+
+          We’re pleased to announce open registration for the 2013 DEF CON CTF qualifying round. The registration site can be accessed at [https://2013.legitbs.net/](https://2013.legitbs.net/) now.
+
+          ## HOW REGISTRATION WORKS
+
+          1. Register a user account.
+          1. Decide on a team name. Everyone in the world will see this.
+          1. Decide on a team password. Everyone in the world will try and guess this.
+          1. Register a team with the desired team name and team password.
+          1. Give your teammates the team name and team password. Do not give them your password.
+          1. Wait for quals to start.
+
+          Please ask any registration questions in [
+          the DEF CON forums](https://forum.defcon.org/showthread.php?t=13331)
+          , or 
+          [@-mention @legitbs_ctf](https://twitter.com/LegitBS_CTF) on Twitter.
+
+          ## Changes for 2013
+
+          We have a new and exciting **team size limitation** for you! Should you qualify, your team in Vegas will be limited to eight: you won’t be allowed more than eight seats at your table. **Work with us on this :)** If you’ve got friends dropping by with food/booze, that’s cool. If you’ve got runners carrying flash drives back and forth between the competition area and the rest of the team holed up in hotel rooms, that’s not. We’re building fewer and harder challenges for the competition: parallelization will be of limited value, and a win with a small team is more elite anyways.
+          
+          **Web stuff** won’t just be simple baby’s first SQLi this time. It’ll be hard, it’ll be related to real-world stuff, and we think you’ll enjoy it.
+
+          We’re **dropping categories** from previous years. You can leave your **forensics** tools at work, you’re not going to be undeleting .TGA files from FAT12 dumps this year. You don’t need to bookmark all those DEF CON history pages either, **trivia is gone**, and we promise to not make you answer “\_\_\_\_ \_\_\_ \_\_\_\_\_\_!”
+
+          ## Not changed for 2013
+          
+          Do go brush up on your assembly, and don’t just stop at Intel/AMD’s offerings. ARM processors are scary popular, PPC still exists lol, and who knows what other popular architectures might make a cameo.
+          Expect to be taking over applications remotely, reverse engineering some ridiculous binaries, and writing mind bending shellcode.
+
+          ## More open and less ambiguous
+
+          We have a presence on the 
+          [official DEF CON forums](https://forum.defcon.org/forumdisplay.php?f=716) 
+          now. We won't monitor it 24/7, but as quals draws closer, we
+          hope to answer some questions.
+
+          Additionally, you can follow 
+          [@legitbs_ctf](https://twitter.com/LegitBS_CTF) on Twitter;
+          some of the individual businessmen have Twitter accounts too, and
+          may (or may not) have relevant information.
+      #schedule
+        %h1 Schedule
+        %dl
+          %dt
+            %s April 1
+          %dd 
+            %s Schedule Announced
+          %dt 
+            %s May 1
+          %dd 
+            %s Registration Open
+          %dt June 15, Midnight UTC
+          %dd Qualification Starts
+          %dt June 17, Midnight UTC
+          %dd Qualification Ends
+          %dt August 2
+          %dd Competition Starts
+          %dt August 4
+          %dd Competition Ends
+        %table
+          %thead
+            %tr
+              %th TZ
+              %th Quals Start
+              %th Quals End
+          %tbody
+            %tr
+              %th Tokyo
+              %td June 15, 9am
+              %td June 17, 9am
+            %tr
+              %th Moscow
+              %td June 15, 4am
+              %td June 17, 4am
+            %tr#utc
+              %th UTC
+              %td June 15, Midnight
+              %td June 17, Midnight
+            %tr
+              %th New York
+              %td June 14, 8pm
+              %td June 16, 8pm
+            %tr
+              %th Los Angeles
+              %td June 14, 5pm
+              %td June 16, 5pm
+        %p
+          Did we leave out your city?
+          %a{href: 'http://www.timeanddate.com/worldclock/fixedtime.html?iso=20130615T00'}
+            Here's a bunch more.
+        %h2 Your June Hacking Schedule
+        %table
+          %thead
+            %tr
+              %th What
+              %th When
+          %tbody
+            %tr
+              %td
+                %a{href: 'http://ebctf.nl/'} EBCTF Teaser
+              %td
+                June 1
+            %tr
+              %td
+                %a{href: 'http://www.summercon.org/'} SummerCon
+              %td June 3-8
+            %tr#our_game
+              %td DEF CON CTF Quals
+              %td June 15-17
+            %tr
+              %td 
+                %a{href: 'https://www.sans.org/event/sansfire-2013'} SANSFIRE
+              %td June 15-22
+            %tr 
+              %td 
+                %a{href: 'http://hackinparis.com/'} Hack in Paris
+              %td June 17-21
+            %tr
+              %td 
+                %a{href: 'http://recon.cx/2013/'} RECon
+              %td June 17-23
+
+
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-38870141-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

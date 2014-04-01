@@ -1,0 +1,16 @@
+!!! 5
+%html
+  %head
+    %title badmedicine
+  %body
+    %h1 badmedicine
+    .flash
+      {{ .flash }}
+    %form{method: 'post', action: '/login'}
+      %h2 login
+      %p#username
+        %label
+          Username:
+          %input{type: 'text', name: 'username'}
+      %p#submit
+        %button{type: 'submit'} Log In
