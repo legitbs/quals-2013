@@ -1,0 +1,152 @@
+[
+{
+"category":"3dub",
+"name":"badmedicine",
+"clue":"http://badmedicine.shallweplayaga.me:8042",
+"answer_digest":"$2a$10$91ol.5FAzphnX4w9JZzUyee9aPbZALgyW1j.X49ntMotW4NSTrGpO"
+},
+{
+"category":"3dub",
+"name":"babysfirst",
+"clue":"http://babysfirst.shallweplayaga.me:8041",
+"answer_digest":"$2a$10$Oc7ldoAulHVv9R/Z5lp4TOmpCDgoHyZgU2Lskp07PCGbDNw1AckiW"
+},
+{
+"category":"3dub",
+"name":"hypeman",
+"clue":"http://hypeman.shallweplayaga.me/",
+"answer_digest":"$2a$10$EPXT53/7VF70A4nGB5MakuHQLhdIGh.iyzX1OeDo5Kk0h6RD9g.6G"
+},
+{
+"category":"3dub",
+"name":"rememberme",
+"clue":"http://rememberme.shallweplayaga.me/",
+"answer_digest":"$2a$10$hK/UGe0EhMb7CVk.9fSt4OH6qSnFpVqu/SwfQ9uERReJph6Pm7fJK"
+},
+{
+"category":"3dub",
+"name":"worsemedicine",
+"clue":"http://worsemedicine.shallweplayaga.me/",
+"answer_digest":"$2a$10$20o78be6IPkWsS6DpJkSfuRZONMT1PFg93OfHLtrze.OVETTKJr1K"
+},
+{
+"category":"0x41414141",
+"name":"bitterswallow",
+"clue":"bitterswallow.shallweplayaga.me:6492 http://assets-2013.legitbs.net/liabilities/bs",
+"answer_digest":"$2a$10$rSX6BaGK372FUNPBN7xjiOj5jS73lcIEtuT6S4BxZ7dJAVfxhVkNi"
+},
+{
+"category":"0x41414141",
+"name":"blackbox",
+"clue":"http://assets-2013.legitbs.net/liabilities/blackbox.core\nRunning at 131.247.27.201:1234",
+"answer_digest":"$2a$10$JYaQ48.UssXXVoA.xhAax.OpTBF44J4yGFpXQuqtcwkCCqpjA2F0u"
+},
+{
+"category":"0x41414141",
+"name":"ergab",
+"clue":"Don't worry, I'm the Doctor. lolergab.shallweplayaga.me:5000 http://assets-2013.legitbs.net/liabilities/ergab",
+"answer_digest":"$2a$10$JiP4i220eIXXiDoYsXn/p.r5IhmTxT1N6geBKlP5wjUdrJXLHOh5S"
+},
+{
+"category":"0x41414141",
+"name":"annyong",
+"clue":"HELLOHellohello\nhttp://assets-2013.legitbs.net/liabilities/annyong\nRunning at annyong.shallweplayaga.me:5679",
+"answer_digest":"$2a$10$bIgrAI3oNeN6zjCK10txmujEQe1eEcWlY8HYviF86j/0d5LTCqRTy"
+},
+{
+"category":"0x41414141",
+"name":"yolo",
+"clue":"usually, sometimes 12 times. 23.20.98.29:3647 http://assets.shallweplayaga.me/yolo",
+"answer_digest":"$2a$10$rhS87u1XAwFaUD/GIZ5WsO1g8EutVmJqKzba3Zo2XDVc91P3RZw22"
+},
+{
+"category":"\\xff\\xe4\\xcc",
+"name":"incest",
+"clue":"I hear banjos.  incest.shallweplayaga.me:65535 http://assets-2013.legitbs.net/liabilities/maw http://assets-2013.legitbs.net/liabilities/sis",
+"answer_digest":"$2a$10$A72con0n0IEyTgrwG891/OYWqhZtfpVN3g4HKHG.zt7EBQQrhvcWe"
+},
+{
+"category":"\\xff\\xe4\\xcc",
+"name":"blackjack",
+"clue":"Are you ready to win some $$? http://assets.shallweplayaga.me/blackjack Running at blackjack.shallweplayaga.me:6789",
+"answer_digest":"$2a$10$n9xgjkxk.AX/6iPqPH8i5uJZg8zpe.QrmpvGFW3B3p3F0zob.vxl2"
+},
+{
+"category":"\\xff\\xe4\\xcc",
+"name":"linked",
+"clue":"http://assets.shallweplayaga.me/linked.txt Running at linked.shallweplayaga.me:22222 OR linked2.shallweplayaga.me:22222",
+"answer_digest":"$2a$10$DLnpl3.K8DYzKNurmYoqMuBvPwoeisfb9XAVlP6I01QRh2Qw8lQD6"
+},
+{
+"category":"\\xff\\xe4\\xcc",
+"name":"penser",
+"clue":"good luck. penser.shallweplayaga.me:8273 http://assets-2013.legitbs.net/liabilities/penser",
+"answer_digest":"$2a$10$Xxc4yAIo8K2CyLo3.so/k.dzxljZWOEQtE6hxRpz3N9yxo2aero/e"
+},
+{
+"category":"\\xff\\xe4\\xcc",
+"name":"lena",
+"clue":"gg\nhttp://assets.shallweplayaga.me/lena_server\n lena.shallweplayaga.me:12345",
+"answer_digest":"$2a$10$To3zZX7SAawtKo8gx4NVTeTbT3n3fL/FIFsr8ytDNtXH8wbLrrhVm"
+},
+{
+"category":"OMGACM",
+"name":"pieceofeight",
+"clue":"squaaak, pieces of eight. pieceofeight.shallweplayaga.me:8273 OR pieceofeight2.shallweplayaga.me:8273",
+"answer_digest":"$2a$10$onFaRF65.OL.hDgdAKvzJ.6jEtgSntMagnLdLW4/3pAUm3wLBBFbu"
+},
+{
+"category":"OMGACM",
+"name":"diehard",
+"clue":"...with a vengeance. diehard.shallweplayaga.me:4001",
+"answer_digest":"$2a$10$xrXP.Dlz373.hdJlGruNZetMp.URlfNFcThAOA2vqyUy.gT5FNTt6"
+},
+{
+"category":"OMGACM",
+"name":"grandprix",
+"clue":"stay away from the zebras. grandprix.shallweplayaga.me:2038",
+"answer_digest":"$2a$10$b1ji8oKP8riZhfgAWp/fpu4RtFtHxCHy1iNUgRlA7uc993bmnRSPa"
+},
+{
+"category":"OMGACM",
+"name":"bob",
+"clue":"Bob hates his job! Running at bigbadbob.shallweplayaga.me:2232",
+"answer_digest":"$2a$10$cm.NGaE3exbOY2JsigKRfOUhgOVWKJhnX2AkZyDRkwpRi0seo5.Ya"
+},
+{
+"category":"OMGACM",
+"name":"passweird",
+"clue":"bank error in your favor, the key is: hack the planet",
+"answer_digest":"$2a$10$PKIy5U9rEu.CMdd1HFyXFuxp0fFbPVE/krLJgpeR2sMy6AheOLGl2"
+},
+{
+"category":"gnireenigne",
+"name":"policebox",
+"clue":"But I already typed that...\nhttp://assets-2013.legitbs.net/liabilities/policebox\nhttp://assets-2013.legitbs.net/liabilities/core",
+"answer_digest":"$2a$10$QPqYzBEtZSf9I9DIOT2dOuWa0YPICnRslldcqBQE59I41NwB1WGB6"
+},
+{
+"category":"gnireenigne",
+"name":"thyself",
+"clue":"usage: ./client 50.16.112.8\nhttp://assets-2013.legitbs.net/liabilities/client",
+"answer_digest":"$2a$10$D0gXfvRToFyfL3WXFKySPOz0tBBKJOQexQiMiQ9FEx6oBlsIwi.y."
+},
+{
+"category":"gnireenigne",
+"name":"musicman",
+"clue":"Can you hear that?\nhttp://assets-2013.legitbs.net/liabilities/musicman\nRunning at musicman.shallweplayaga.me:7890",
+"answer_digest":"$2a$10$t7WB9ZAo2ad84r03zC6TEu3rhuYGa8wKxK1s7qAlN7w5gJNT4WC6K"
+},
+{
+"category":"gnireenigne",
+"name":"timecubed",
+"clue":"Nature's Harmoic Time Cube\nhttp://assets-2013.legitbs.net/liabilities/timescubed timescubed.shallweplayaga.me:1338",
+"answer_digest":"$2a$10$l0ez85Ss9c8gUWFUL0pEpegw7Up8bjv7O8kGsF9i6jMKUsin3KOZ."
+},
+{
+"category":"gnireenigne",
+"name":"tastycloud",
+"clue":"mmmmm. http://assets-2013.legitbs.net/liabilities/tastycloud tastycloud.shallweplayaga.me:6283",
+"answer_digest":"$2a$10$32oyGQ.marxPwUKyJlb1NOAzzbAKzv6oj0bK/hdesban./UYoP9LO"
+}
+]
